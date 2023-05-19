@@ -1,0 +1,309 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.subhead {
+    margin: 10px;
+    margin-left: 40%;
+    font-family: 'Meddon', cursive;
+    font-size: 35px;
+    color: #2F1C6A;
+}
+
+nav {
+    background-color: #000000; 
+}
+
+.icon {
+    text-align: center;
+    color: white;
+    font-family: 'Michroma', sans-serif;
+    font-weight:bolder;
+    font-size: 50px;
+}
+
+.nav-items {
+    padding: 25px;
+    margin-left: 48%;
+    background-color: #000000;
+}
+
+.item {
+    font-size: 19px;
+    display:inline;
+    margin: 100px 15px;
+}
+
+nav ul li a{
+    color: #1ba9dc;
+    text-decoration: none;
+}
+
+a:hover {
+    color: white;
+    text-transform: uppercase;
+  }
+
+nav input[type=text] {
+    float: right;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 6px;
+    margin-right: 30px;
+    font-size: 15px;
+  }
+
+.about-nitj {
+    float: right;
+    padding: 34px;
+    margin-right: 40px;
+    border-radius: 10px;
+    background: #C6DCE4;
+    width: 55%;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.flexbox-row1 {
+    display: flex;
+    flex-direction: row;
+    margin: 40px 0px;
+}
+
+.Vision {
+    padding: 34px;
+    margin: 2px 10px 2px 40px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    background: #FFEEEE;
+    width: 30%;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.Mission {
+    padding: 34px;
+    margin: 2px 40px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    background: #FFF5E4;
+    width: 70%;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.flexbox-row2 {
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+}
+
+.location {
+    padding: 34px;
+    margin: 2px 40px 2px 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    background: #dcf9c1;
+    width: 60%;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.map {
+    margin-right: 20px;
+}
+
+.campus-head {
+    margin:10px 5px 2px 50px;
+    font-family: 'Michroma', sans-serif;
+}
+
+.flexbox-row3 {
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+}
+
+.flexbox-row3 a {
+    text-decoration: none;
+}
+
+.CSE {
+    padding: 34px;
+    margin: 20px;
+    border-radius: 10px;
+    background: #aeb4f3;
+    width: 30%;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.IT {
+    padding: 34px;
+    margin: 20px;
+    border-radius: 10px;
+    background: #f6d0d0;
+    width: 30%;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.ME {
+    padding: 34px;
+    margin: 20px;
+    border-radius: 10px;
+    background: #f6d9b1;
+    width: 30%;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.button-more button {
+    margin-left: 45%;
+    padding: 10px;
+    font-family: 'Quicksand', sans-serif;
+    border-radius: 10px;
+    color: #ffffff;
+    background-color: #000000;
+}
+
+.button-more button:hover {
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.flexbox-row4 {
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+}
+
+.flexbox-row4 p {
+    font-family: 'Quicksand', sans-serif;
+    margin:10px;
+    margin-left:250px;
+    font-weight: 900;
+}
+
+.flexbox-row5 {
+    display: flex;
+    flex-direction: row;
+    margin: 5px;
+    
+}
+
+.flexbox-row5 p {
+    font-family: 'Quicksand', sans-serif;
+    margin:10px;
+    margin-left:130px;
+    font-weight: 900;
+}
+
+.alumni-head, .place-head {
+    margin:10px 5px 2px 50px;
+    font-family: 'Michroma', sans-serif;
+}
+
+#Alumni {
+    margin:40px 20px;
+    display: flex;
+}
+
+#Alumni .box { 
+    padding:15px 10px;
+    margin: 5px 15px;
+    margin-bottom: 20px;
+}
+
+#Alumni .box img { 
+   height: 190px;
+   margin: auto;
+   margin-bottom: 10px;
+   display: block;
+   border-radius: 10px;
+}
+
+#Alumni .box p {
+    padding: 10px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.Aluname {
+    margin-top: 20px;
+    padding: 10px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.rec-org {
+    margin-top: 50px;
+    margin-left: 5%;
+}
+.contactus {
+    padding: 34px;
+    margin: 20px 18%;
+    width: 60%;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.socialnetwork {
+    margin-left: 33%;
+}
+
+.fa-facebook {
+    background: #1a5ce9;
+    color: white;
+    padding: 15px 19px;
+    margin: 0 20px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 100%;
+}
+
+.fa-twitter {
+    background: #3dc4f1;
+    color: white;
+    padding: 15px 16px;
+    margin: 0 20px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 100%;
+}
+
+.fa-youtube {
+    background: #f13d3d;
+    color: white;
+    padding: 15px 16px;
+    margin: 0 20px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 100%;
+}
+
+.fa-instagram {
+    background: #fb3958;
+    color: white;
+    padding: 15px 16px;
+    margin: 0 20px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 100%;
+}
+
+.fa-linkedin {
+    background: #17039d;
+    color: white;
+    padding: 15px 16px;
+    margin: 0 20px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 100%;
+}
+
+footer{
+    font-family: 'Quicksand', sans-serif;
+    background: black;
+    color: white;
+    margin-top: 10px;
+    padding: 10px 520px;
+}
+
+
+.footer-text {
+    font-family: 'Quicksand', sans-serif;
+    margin-top:20px;
+}
